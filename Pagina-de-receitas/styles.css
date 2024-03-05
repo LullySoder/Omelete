@@ -1,0 +1,78 @@
+:root {
+    --marrom-escuro: #854632;
+    --marrom-alaranjado:	#a8611a;
+    --laranja:	#d15b0d;
+    --framboesa-claro: #ad8296;
+    --framboesa-escuro: #611d3c;
+    --preto:	#000000;
+    --cinza-medio:	#828282;
+    --cinza-medio-mais:	#5e6061;
+    --cinza-escuro:	#2b2b2b;
+    --fonte-principal: "Young Serif";
+    --fonte-secundaria: "Outfit";
+    --cor-de-fundo: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display:block;
+}
+
+.cabecalho__imagem {
+    width: 100%;
+
+}
+
+.cabecalho__titulo {
+    font-size: 36px;
+    text-align: left;
+    margin: 1em 1em 0.2em; 
+}
+
+.cabecalho__texto {
+    font-family: var(--fonte-secundaria);
+    margin: 2em ;
+    line-height: 1.2em
+}
+
+
+.preparation {
+    display: block;    
+    background-color: #f7d7f6;
+    border-radius: 10px;
+    margin: 2em;
+    padding: 2em;
+}
+
+
+.preparation__container-titulo {
+    font-family: var(--fonte-secundaria);
+    color: var(--framboesa-escuro);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.preparation__container-item {
+    color: var(--preto);
+    font-family: var(--fonte-secundaria);
+
+}
+
+
+
+
+
+
+
+
